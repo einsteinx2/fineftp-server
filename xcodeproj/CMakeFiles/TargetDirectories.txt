@@ -1,0 +1,11 @@
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeFiles/install.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeFiles/ALL_BUILD.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeFiles/ZERO_CHECK.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/CMakeFiles/install.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/CMakeFiles/server.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/CMakeFiles/ALL_BUILD.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/CMakeFiles/ZERO_CHECK.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/install.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/example.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/ALL_BUILD.dir
+/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/ZERO_CHECK.dir

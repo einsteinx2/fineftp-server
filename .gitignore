@@ -11,3 +11,8 @@ ipch
 /_install
 /.vs
 /CMakeLists.txt.user
+
+.DS_Store
+xcuserdata
+fineftp.build
+

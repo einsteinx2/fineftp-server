@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5349C5D72548D1ED00098992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349C5D62548D1ED00098992 /* AppDelegate.m */; };
+		5349C5DA2548D1ED00098992 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349C5D92548D1ED00098992 /* SceneDelegate.m */; };
+		5349C5DD2548D1ED00098992 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5349C5DC2548D1ED00098992 /* ViewController.mm */; };
+		5349C5E02548D1ED00098992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5349C5DE2548D1ED00098992 /* Main.storyboard */; };
+		5349C5E22548D1EE00098992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5349C5E12548D1EE00098992 /* Assets.xcassets */; };
+		5349C5E52548D1EE00098992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5349C5E32548D1EE00098992 /* LaunchScreen.storyboard */; };
+		5349C5E82548D1EE00098992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349C5E72548D1EE00098992 /* main.m */; };
+		5349C6192548DED400098992 /* libfineftp-server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5349C6102548DEC200098992 /* libfineftp-server.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5349C60D2548DEC200098992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5349C6052548DEC200098992 /* fineftp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1DF7313D42E430B97FD5E18;
+			remoteInfo = example;
+		};
+		5349C60F2548DEC200098992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5349C6052548DEC200098992 /* fineftp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A852D0B92AB54584A8147080;
+			remoteInfo = server;
+		};
+		5349C6172548DECE00098992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5349C6052548DEC200098992 /* fineftp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2565B401D24F728696BFFD;
+			remoteInfo = server;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5349C5D22548D1ED00098992 /* FineFTPServerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineFTPServerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5349C5D52548D1ED00098992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5349C5D62548D1ED00098992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5349C5D82548D1ED00098992 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5349C5D92548D1ED00098992 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5349C5DB2548D1ED00098992 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5349C5DC2548D1ED00098992 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		5349C5DF2548D1ED00098992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5349C5E12548D1EE00098992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5349C5E42548D1EE00098992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5349C5E62548D1EE00098992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5349C5E72548D1EE00098992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5349C6052548DEC200098992 /* fineftp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = fineftp.xcodeproj; path = ../../xcodeproj/fineftp.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5349C5CF2548D1ED00098992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349C6192548DED400098992 /* libfineftp-server.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5349C5C92548D1ED00098992 = {
+			isa = PBXGroup;
+			children = (
+				5349C6052548DEC200098992 /* fineftp.xcodeproj */,
+				5349C5D42548D1ED00098992 /* FineFTPServerExample */,
+				5349C5D32548D1ED00098992 /* Products */,
+				5349C5FF2548D24A00098992 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5349C5D32548D1ED00098992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5349C5D22548D1ED00098992 /* FineFTPServerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5349C5D42548D1ED00098992 /* FineFTPServerExample */ = {
+			isa = PBXGroup;
+			children = (
+				5349C5D52548D1ED00098992 /* AppDelegate.h */,
+				5349C5D62548D1ED00098992 /* AppDelegate.m */,
+				5349C5D82548D1ED00098992 /* SceneDelegate.h */,
+				5349C5D92548D1ED00098992 /* SceneDelegate.m */,
+				5349C5DB2548D1ED00098992 /* ViewController.h */,
+				5349C5DC2548D1ED00098992 /* ViewController.mm */,
+				5349C5DE2548D1ED00098992 /* Main.storyboard */,
+				5349C5E12548D1EE00098992 /* Assets.xcassets */,
+				5349C5E32548D1EE00098992 /* LaunchScreen.storyboard */,
+				5349C5E62548D1EE00098992 /* Info.plist */,
+				5349C5E72548D1EE00098992 /* main.m */,
+			);
+			path = FineFTPServerExample;
+			sourceTree = "<group>";
+		};
+		5349C5FF2548D24A00098992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5349C6062548DEC200098992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5349C60E2548DEC200098992 /* example */,
+				5349C6102548DEC200098992 /* libfineftp-server.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5349C5D12548D1ED00098992 /* FineFTPServerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5349C5EB2548D1EE00098992 /* Build configuration list for PBXNativeTarget "FineFTPServerExample" */;
+			buildPhases = (
+				5349C5CE2548D1ED00098992 /* Sources */,
+				5349C5CF2548D1ED00098992 /* Frameworks */,
+				5349C5D02548D1ED00098992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5349C6182548DECE00098992 /* PBXTargetDependency */,
+			);
+			name = FineFTPServerExample;
+			productName = FineFTPServerExample;
+			productReference = 5349C5D22548D1ED00098992 /* FineFTPServerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5349C5CA2548D1ED00098992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5349C5D12548D1ED00098992 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 5349C5CD2548D1ED00098992 /* Build configuration list for PBXProject "FineFTPServerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5349C5C92548D1ED00098992;
+			productRefGroup = 5349C5D32548D1ED00098992 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5349C6062548DEC200098992 /* Products */;
+					ProjectRef = 5349C6052548DEC200098992 /* fineftp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5349C5D12548D1ED00098992 /* FineFTPServerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5349C60E2548DEC200098992 /* example */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = example;
+			path = example.app;
+			remoteRef = 5349C60D2548DEC200098992 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5349C6102548DEC200098992 /* libfineftp-server.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfineftp-server.a";
+			remoteRef = 5349C60F2548DEC200098992 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5349C5D02548D1ED00098992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349C5E52548D1EE00098992 /* LaunchScreen.storyboard in Resources */,
+				5349C5E22548D1EE00098992 /* Assets.xcassets in Resources */,
+				5349C5E02548D1ED00098992 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5349C5CE2548D1ED00098992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349C5DD2548D1ED00098992 /* ViewController.mm in Sources */,
+				5349C5D72548D1ED00098992 /* AppDelegate.m in Sources */,
+				5349C5E82548D1EE00098992 /* main.m in Sources */,
+				5349C5DA2548D1ED00098992 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5349C6182548DECE00098992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = server;
+			targetProxy = 5349C6172548DECE00098992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5349C5DE2548D1ED00098992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5349C5DF2548D1ED00098992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5349C5E32548D1EE00098992 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5349C5E42548D1EE00098992 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5349C5E92548D1EE00098992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5349C5EA2548D1EE00098992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5349C5EC2548D1EE00098992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7596YH3S97;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../fineftp-server/include";
+				INFOPLIST_FILE = FineFTPServerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.FineFTPServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5349C5ED2548D1EE00098992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7596YH3S97;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../fineftp-server/include";
+				INFOPLIST_FILE = FineFTPServerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinx2.FineFTPServerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5349C5CD2548D1ED00098992 /* Build configuration list for PBXProject "FineFTPServerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349C5E92548D1EE00098992 /* Debug */,
+				5349C5EA2548D1EE00098992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5349C5EB2548D1EE00098992 /* Build configuration list for PBXNativeTarget "FineFTPServerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349C5EC2548D1EE00098992 /* Debug */,
+				5349C5ED2548D1EE00098992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5349C5CA2548D1ED00098992 /* Project object */;
+}

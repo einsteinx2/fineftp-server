@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		892257CC00A6488EBE02F0E9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A639377928B345EA875810CD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				9F8A57CEC10144759CFC9325 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9EBCCC67E1E84858A52DC427 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		9D2F2D1393CB430BBD1BC85B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 25DC90D2FD2344B5A21B27D8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				65351FBD52DC4F27A8CC3F48 /* CMake Rules */,
+			);
+			dependencies = (
+				2D3455B367264802AD042256 /* PBXTargetDependency */,
+				511EB5A8F97C4658BED1AC1E /* PBXTargetDependency */,
+				D24DA839486745538C9A71A9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DDB1284D776443949A26E0FF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 26742EFADFF946828DACF620 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A807356D3A1D403AB3D59043 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B73222320AA41318A301B6D /* user_database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29F59B6859845798B70BCE7 /* user_database.cpp */; };
+		244D961B0BD54E32A8E0A728 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51E5B8F4BFC4F1C984958D0 /* server.cpp */; };
+		3A274DCE926D44DCAE054827 /* server_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 353C114B235949B4B76CA888 /* server_impl.cpp */; };
+		74A7FB60B4264EAAA0DB7194 /* filesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 392B28788CFF4C0C91365EFC /* filesystem.cpp */; };
+		C53829DA861B488DB6C18B1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7210D33D4B4F496ABF1ECF2C /* main.cpp */; };
+		FE2027093F5F4F21A43602D2 /* ftp_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE694D52204A46F381158282 /* ftp_session.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A1B16F26F43470AA41E0938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B49155E75B46B08C332DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D2F2D1393CB430BBD1BC85B;
+			remoteInfo = ALL_BUILD;
+		};
+		50000ABC808949AD8A4FE6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B49155E75B46B08C332DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2565B401D24F728696BFFD;
+			remoteInfo = server;
+		};
+		B65FFA094E6D48B1A72178D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B49155E75B46B08C332DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2565B401D24F728696BFFD;
+			remoteInfo = server;
+		};
+		D565039CB9F3426CAE6530C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B49155E75B46B08C332DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB1284D776443949A26E0FF;
+			remoteInfo = ZERO_CHECK;
+		};
+		EC9B12505A6A4E20BDF281D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B49155E75B46B08C332DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC1D98116044F7C83849B0D;
+			remoteInfo = example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AD95808C404BDC88C98998 /* user_database.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = user_database.h; path = "fineftp-server/src/user_database.h"; sourceTree = SOURCE_ROOT; };
+		0CC6398E0F3D404CB7373543 /* permissions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = permissions.h; path = "fineftp-server/include/fineftp/permissions.h"; sourceTree = SOURCE_ROOT; };
+		10ACE2CDD71744DCA1EB4A98 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = "xcodeproj/fineftp-server/CMakeFiles/server.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		353C114B235949B4B76CA888 /* server_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_impl.cpp; path = "fineftp-server/src/server_impl.cpp"; sourceTree = SOURCE_ROOT; };
+		392B28788CFF4C0C91365EFC /* filesystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filesystem.cpp; path = "fineftp-server/src/filesystem.cpp"; sourceTree = SOURCE_ROOT; };
+		580577CA98034DBFA2586690 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xcodeproj/example/CMakeFiles/example.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5C5220E6624C4374A2285314 /* ftp_session.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftp_session.h; path = "fineftp-server/src/ftp_session.h"; sourceTree = SOURCE_ROOT; };
+		7210D33D4B4F496ABF1ECF2C /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = example/src/main.cpp; sourceTree = SOURCE_ROOT; };
+		8DC1D79DF5F74BB19CBE9044 /* server.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = server.h; path = "fineftp-server/include/fineftp/server.h"; sourceTree = SOURCE_ROOT; };
+		A852D0B92AB54584A8147080 /* libfineftp-server.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libfineftp-server.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE694D52204A46F381158282 /* ftp_session.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ftp_session.cpp; path = "fineftp-server/src/ftp_session.cpp"; sourceTree = SOURCE_ROOT; };
+		B93A979AA5AC4FD280D50743 /* server_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = server_impl.h; path = "fineftp-server/src/server_impl.h"; sourceTree = SOURCE_ROOT; };
+		C51E5B8F4BFC4F1C984958D0 /* server.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server.cpp; path = "fineftp-server/src/server.cpp"; sourceTree = SOURCE_ROOT; };
+		C9B16A8A6F7B4078B3B3F55D /* ftp_user.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftp_user.h; path = "fineftp-server/src/ftp_user.h"; sourceTree = SOURCE_ROOT; };
+		C9D7B3AFEA834171921A6053 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CC696019A7A14BEE8E7BCF85 /* filesystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filesystem.h; path = "fineftp-server/src/filesystem.h"; sourceTree = SOURCE_ROOT; };
+		DD135DFDD54948F5820ACD2F /* ftp_message.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftp_message.h; path = "fineftp-server/src/ftp_message.h"; sourceTree = SOURCE_ROOT; };
+		EB6A1CE665A1405DBC778098 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "fineftp-server/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		F194371115CB4DE0B9267608 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = example/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F1DF7313D42E430B97FD5E18 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = example; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29F59B6859845798B70BCE7 /* user_database.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = user_database.cpp; path = "fineftp-server/src/user_database.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09033ADE28134BF4A8A8A676 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				392B28788CFF4C0C91365EFC /* filesystem.cpp */,
+				AE694D52204A46F381158282 /* ftp_session.cpp */,
+				C51E5B8F4BFC4F1C984958D0 /* server.cpp */,
+				353C114B235949B4B76CA888 /* server_impl.cpp */,
+				F29F59B6859845798B70BCE7 /* user_database.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		344B627D36704C9085A17867 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EA257A06261C460B8AB13695 /* CMake Rules */,
+				C9D7B3AFEA834171921A6053 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3DA7B6FD2377419AB09A4AB4 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE0B86506B442BA61BA4BC /* Source Files */,
+				E94FF513660649819A8A8CA8 /* Resources */,
+				F194371115CB4DE0B9267608 /* CMakeLists.txt */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		4781F0E1B0C44F0EAEF44303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DF7313D42E430B97FD5E18 /* example */,
+				A852D0B92AB54584A8147080 /* libfineftp-server.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD7AAD939794C6BA5C038B4 = {
+			isa = PBXGroup;
+			children = (
+				344B627D36704C9085A17867 /* ALL_BUILD */,
+				BFFE817B35A541D58F16F0FD /* server */,
+				3DA7B6FD2377419AB09A4AB4 /* example */,
+				4781F0E1B0C44F0EAEF44303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAD87917F9D4F3286DD8E2D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC6398E0F3D404CB7373543 /* permissions.h */,
+				8DC1D79DF5F74BB19CBE9044 /* server.h */,
+				CC696019A7A14BEE8E7BCF85 /* filesystem.h */,
+				DD135DFDD54948F5820ACD2F /* ftp_message.h */,
+				5C5220E6624C4374A2285314 /* ftp_session.h */,
+				C9B16A8A6F7B4078B3B3F55D /* ftp_user.h */,
+				B93A979AA5AC4FD280D50743 /* server_impl.h */,
+				00AD95808C404BDC88C98998 /* user_database.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BFFE817B35A541D58F16F0FD /* server */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD87917F9D4F3286DD8E2D /* Header Files */,
+				09033ADE28134BF4A8A8A676 /* Source Files */,
+				F2EF734C6CE44D65B5128F72 /* Resources */,
+				EB6A1CE665A1405DBC778098 /* CMakeLists.txt */,
+			);
+			name = server;
+			sourceTree = "<group>";
+		};
+		D3FE0B86506B442BA61BA4BC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7210D33D4B4F496ABF1ECF2C /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E94FF513660649819A8A8CA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				580577CA98034DBFA2586690 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA257A06261C460B8AB13695 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F2EF734C6CE44D65B5128F72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10ACE2CDD71744DCA1EB4A98 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E2565B401D24F728696BFFD /* server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8926C4AE30704194AE405533 /* Build configuration list for PBXNativeTarget "server" */;
+			buildPhases = (
+				39FD467B4AA94960B0C17B9D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = server;
+			productName = server;
+			productReference = A852D0B92AB54584A8147080 /* libfineftp-server.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7CC1D98116044F7C83849B0D /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61238E4BEFBD4969AD6B5E8F /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				FB89F1E563584D62B668B599 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722D81F3C2014DC099360EA3 /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = F1DF7313D42E430B97FD5E18 /* example */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B49155E75B46B08C332DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					0E2565B401D24F728696BFFD = {
+						DevelopmentTeam = 123456789A;
+					};
+					7CC1D98116044F7C83849B0D = {
+						DevelopmentTeam = 123456789A;
+					};
+					892257CC00A6488EBE02F0E9 = {
+						DevelopmentTeam = 123456789A;
+					};
+					9D2F2D1393CB430BBD1BC85B = {
+						DevelopmentTeam = 123456789A;
+					};
+					DDB1284D776443949A26E0FF = {
+						DevelopmentTeam = 123456789A;
+					};
+				};
+			};
+			buildConfigurationList = 037D8AAFA667464583D1E117 /* Build configuration list for PBXProject "fineftp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AD7AAD939794C6BA5C038B4;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				9D2F2D1393CB430BBD1BC85B /* ALL_BUILD */,
+				DDB1284D776443949A26E0FF /* ZERO_CHECK */,
+				7CC1D98116044F7C83849B0D /* example */,
+				892257CC00A6488EBE02F0E9 /* install */,
+				0E2565B401D24F728696BFFD /* server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65351FBD52DC4F27A8CC3F48 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bbaron/workspacec/fineftp-server/xcodeproj -f /Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9F8A57CEC10144759CFC9325 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bbaron/workspacec/fineftp-server/xcodeproj -f /Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A807356D3A1D403AB3D59043 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bbaron/workspacec/fineftp-server/xcodeproj -f /Users/bbaron/workspacec/fineftp-server/xcodeproj/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FD467B4AA94960B0C17B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A7FB60B4264EAAA0DB7194 /* filesystem.cpp in Sources */,
+				FE2027093F5F4F21A43602D2 /* ftp_session.cpp in Sources */,
+				244D961B0BD54E32A8E0A728 /* server.cpp in Sources */,
+				3A274DCE926D44DCAE054827 /* server_impl.cpp in Sources */,
+				1B73222320AA41318A301B6D /* user_database.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB89F1E563584D62B668B599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53829DA861B488DB6C18B1E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3455B367264802AD042256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2565B401D24F728696BFFD /* server */;
+			targetProxy = B65FFA094E6D48B1A72178D7 /* PBXContainerItemProxy */;
+		};
+		511EB5A8F97C4658BED1AC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB1284D776443949A26E0FF /* ZERO_CHECK */;
+			targetProxy = D565039CB9F3426CAE6530C9 /* PBXContainerItemProxy */;
+		};
+		722D81F3C2014DC099360EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2565B401D24F728696BFFD /* server */;
+			targetProxy = 50000ABC808949AD8A4FE6F9 /* PBXContainerItemProxy */;
+		};
+		9EBCCC67E1E84858A52DC427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D2F2D1393CB430BBD1BC85B /* ALL_BUILD */;
+			targetProxy = 4A1B16F26F43470AA41E0938 /* PBXContainerItemProxy */;
+		};
+		D24DA839486745538C9A71A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC1D98116044F7C83849B0D /* example */;
+			targetProxy = EC9B12505A6A4E20BDF281D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08624D5282EC42CEB6FACDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		0E0E963B2D9240B49EA9B331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				DEVELOPMENT_TEAM = 123456789A;
+				ENABLE_BITCODE = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/build";
+			};
+			name = Release;
+		};
+		105D3987DB61499EAA45972A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		159AA8BEAF5E4365961F6EC0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ASIO_STANDALONE,
+					"'__USE_FILE_OFFSET64=1'",
+					"'_WIN32_WINNT=0x0601'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "fineftp-server";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		166BFD0032A64CA59B3C4639 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		1F0611F1990341AEB1411AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ASIO_STANDALONE,
+					"'__USE_FILE_OFFSET64=1'",
+					"'_WIN32_WINNT=0x0601'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "fineftp-server";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		5903F502AC25402C98ACD0FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/fineftp-server/include";
+				INFOPLIST_FILE = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/example.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libfineftp-server.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		6E576837575F42E39F527807 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		79F00D264E204A9C81E525EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ASIO_STANDALONE,
+					"'__USE_FILE_OFFSET64=1'",
+					"'_WIN32_WINNT=0x0601'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "fineftp-server";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		87287AC84BD64A2885726F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/fineftp-server/include";
+				INFOPLIST_FILE = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/example.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/Debug${EFFECTIVE_PLATFORM_NAME}/libfineftp-server.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		879127F1DC204EAAA7F9CC88 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ASIO_STANDALONE,
+					"'__USE_FILE_OFFSET64=1'",
+					"'_WIN32_WINNT=0x0601'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
+					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wextra",
+					"'-std=gnu++14'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "fineftp-server";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		893B1CB2BBA34A7BA7A887C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				DEVELOPMENT_TEAM = 123456789A;
+				ENABLE_BITCODE = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9261753FB87545C792A4584C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		9F543217620445BF81530E91 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		A7D023A557E342AA83D10935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/fineftp-server/include";
+				INFOPLIST_FILE = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/example.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/Release${EFFECTIVE_PLATFORM_NAME}/libfineftp-server.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B364C1ED4CBD43638005A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		B6E1855EDE104B3FB50B91FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		BD10653E0B19437E8F1F4E1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		CEE8C3D09F384399B0590BA3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/fineftp-server/include";
+				INFOPLIST_FILE = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example/CMakeFiles/example.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libfineftp-server.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		D6CE9021BC2A458D9A2212AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				DEVELOPMENT_TEAM = 123456789A;
+				ENABLE_BITCODE = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/build";
+			};
+			name = Debug;
+		};
+		DE13C827E57D4D62BEA0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		DF6215C57938418991410EAC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E2C2D764EC88444FBD3A99FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		EE1802842D214AC5A2359790 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				DEVELOPMENT_TEAM = 123456789A;
+				ENABLE_BITCODE = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037D8AAFA667464583D1E117 /* Build configuration list for PBXProject "fineftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CE9021BC2A458D9A2212AC /* Debug */,
+				0E0E963B2D9240B49EA9B331 /* Release */,
+				EE1802842D214AC5A2359790 /* MinSizeRel */,
+				893B1CB2BBA34A7BA7A887C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		25DC90D2FD2344B5A21B27D8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E1855EDE104B3FB50B91FD /* Debug */,
+				9261753FB87545C792A4584C /* Release */,
+				9F543217620445BF81530E91 /* MinSizeRel */,
+				DF6215C57938418991410EAC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26742EFADFF946828DACF620 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08624D5282EC42CEB6FACDFA /* Debug */,
+				DE13C827E57D4D62BEA0E69D /* Release */,
+				BD10653E0B19437E8F1F4E1C /* MinSizeRel */,
+				E2C2D764EC88444FBD3A99FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61238E4BEFBD4969AD6B5E8F /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87287AC84BD64A2885726F98 /* Debug */,
+				A7D023A557E342AA83D10935 /* Release */,
+				5903F502AC25402C98ACD0FA /* MinSizeRel */,
+				CEE8C3D09F384399B0590BA3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8926C4AE30704194AE405533 /* Build configuration list for PBXNativeTarget "server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0611F1990341AEB1411AC3 /* Debug */,
+				79F00D264E204A9C81E525EA /* Release */,
+				159AA8BEAF5E4365961F6EC0 /* MinSizeRel */,
+				879127F1DC204EAAA7F9CC88 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A639377928B345EA875810CD /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B364C1ED4CBD43638005A288 /* Debug */,
+				105D3987DB61499EAA45972A /* Release */,
+				6E576837575F42E39F527807 /* MinSizeRel */,
+				166BFD0032A64CA59B3C4639 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B49155E75B46B08C332DA6 /* Project object */;
+}
