@@ -477,8 +477,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+					"$(PROJECT_DIR)/fineftp-server/include",
+					"$(PROJECT_DIR)/fineftp-server/src",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -495,7 +495,7 @@
 				PRODUCT_NAME = "fineftp-server";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/thirdparty/asio/asio/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -545,8 +545,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+					"$(PROJECT_DIR)/fineftp-server/include",
+					"$(PROJECT_DIR)/fineftp-server/src",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -562,7 +562,7 @@
 				PRODUCT_NAME = "fineftp-server";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/thirdparty/asio/asio/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -651,8 +651,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+					"$(PROJECT_DIR)/fineftp-server/include",
+					"$(PROJECT_DIR)/fineftp-server/src",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -669,7 +669,7 @@
 				PRODUCT_NAME = "fineftp-server";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/thirdparty/asio/asio/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -729,8 +729,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/include",
-					"/Users/bbaron/workspacec/fineftp-server/fineftp-server/src",
+					"$(PROJECT_DIR)/fineftp-server/include",
+					"$(PROJECT_DIR)/fineftp-server/src",
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -747,7 +747,7 @@
 				PRODUCT_NAME = "fineftp-server";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bbaron/workspacec/fineftp-server/xcodeproj/fineftp-server";
-				SYSTEM_HEADER_SEARCH_PATHS = "/Users/bbaron/workspacec/fineftp-server/thirdparty/asio/asio/include";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/thirdparty/asio/asio/include";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
