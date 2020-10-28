@@ -20,6 +20,20 @@
 /// Filesystem
 ////////////////////////////////////////////////////////////////////////////////
 
+// Stip non-ASCII characters
+// TODO: Figure out how to actually handle them without just stripping them
+namespace {
+  bool _invalidChar(char c) 
+  {  
+      return c < 0;   
+  } 
+
+  void _stripUnicode(std::string & str) 
+  { 
+      str.erase(remove_if(str.begin(),str.end(), _invalidChar), str.end());  
+  }
+}
+
 namespace fineftp
 {
 namespace Filesystem
@@ -432,7 +446,11 @@ namespace Filesystem
       comp_it++;
     }
 
-    return path_ss.str();
+    // Strip any non-ASCII chars or transfers will fail (temporary solution)
+    std::string path_s = path_ss.str();
+    _stripUnicode(path_s);
+    return path_s;
+    // return path_ss.str();
   }
 
   std::string cleanPathNative(const std::string& path)
